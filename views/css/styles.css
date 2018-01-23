@@ -43,7 +43,7 @@ h3, h4 {
 }
 
 .text-muted {
-	color: #9fadbb;
+	color: #ffffff;
 }
 
 .color-gray { color: #5f6468; }
@@ -365,7 +365,7 @@ a.bg-danger:hover {
 .panel-teal .text-muted,
 .panel-orange .text-muted,
 .panel-red .text-muted { 
-	color: rgba(255, 255, 255, .5); 
+	color: rgba(255, 255, 255, 1); 
 }
 
 .dark-overlay {

@@ -1,0 +1,28 @@
+.panel-dark-grey {
+    background: rgb(87, 87, 87)
+}
+
+.panel-grey {
+    background: rgb(112, 112, 112)
+}
+
+p.italics {
+    font-style: italic;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.height-180 {
+    height: 180px;
+}
+
