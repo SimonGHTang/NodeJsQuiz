@@ -54,7 +54,7 @@ module.exports = function ( sequelize, Sequelize) {
         return stellarisQuestion.count();
     }
 
-    stellarisQuestion.countRows = async function () {
+    stellarisQuestion.getAll = async function () {
         return stellarisQuestion.findAll();
     }
 

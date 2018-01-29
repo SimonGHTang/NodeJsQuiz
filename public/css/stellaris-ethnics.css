@@ -10,7 +10,7 @@ p.italics {
     font-style: italic;
 }
 
-p.bold {
+.bold {
     font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ p.bold {
     padding-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    witdth:100%;
+    width:100%;
     text-align: center;
 }
 
@@ -110,4 +110,79 @@ p.bold {
     color: white;
     background-color: rgb(194, 25, 25);
     border-color: rgb(194, 25, 25);
+}
+
+img.rounded-corners {
+    border-radius : 5px;
+}
+
+.question-label {
+    height: 50px;
+}
+
+.question-blurb {
+    height:50px;
+    padding-top: 14px;
+}
+
+.question-row {
+    height:auto;
+}
+
+.edit-question-text {
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.edit-btn {
+    text-align: center;
+    border-radius: 4px;
+    padding: 17px 40px 17px 40px;
+    margin-left:15px;
+    background: rgb(0, 131, 33);
+    color: white;
+}
+
+.edit-btn:hover {
+    color: white;
+    background-color: rgb(0, 160, 40);
+    text-decoration: none;
+}
+
+.delete-btn {
+    text-align: center;
+    border-radius: 4px;
+    padding: 17px 40px 17px 40px;
+    margin-left:15px;
+    background: rgb(112, 3, 3);
+    color: white;
+}
+
+.delete-btn:hover {
+    color: white;
+    background-color: rgb(136, 9, 9);
+    text-decoration: none;
+}
+
+.options-container {
+    margin-top:15px;
+}
+
+@media screen and (max-width: 1280px) {
+    .edit-btn{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+    }
+
+    .delete-btn{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .text-muted{
+        font-size: 9px;
+        padding-top: 4px;
+    }
 }
