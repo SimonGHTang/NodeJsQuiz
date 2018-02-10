@@ -62,5 +62,9 @@ module.exports = function ( sequelize, Sequelize) {
         return await this.findById(id);
     };
 
+    stellarisQuestion.listIds = async function() {
+        return await stellarisQuestion.findAll({attributes: ['stellarisQuestions_id']});
+    }
+
     return stellarisQuestion;
 }

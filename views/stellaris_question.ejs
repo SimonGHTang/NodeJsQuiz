@@ -28,28 +28,28 @@
 
             <div class="panel-body text-muted">
                 <div class = "btn-container">
-                    <input type="button" class="btn btn-option btn-strongly-agree" value="Strongly Agree">
+                    <input type="button" id="option-<%= result.id %>" class="btn btn-option btn-strongly-agree" value="Strongly Agree">
                 </div>
                 
                 <div class = "btn-container">
-                    <input type="button" class="btn btn-option btn-agree" value="Agree">
+                    <input type="button" id="option-<%= result.id %>" class="btn btn-option btn-agree" value="Agree">
                 </div>
                     
                 <div class = "btn-container">
-                    <input type="button" class="btn btn-option btn-neutral" value="Neutral/Unsure">
+                    <input type="button" id="option-<%= result.id %>" class="btn btn-option btn-neutral" value="Neutral/Unsure">
                 </div>
                     
                 <div class = "btn-container">
-                    <input type="button" class="btn btn-option btn-disagree" value="Disagree">
+                    <input type="button" id="option-<%= result.id %>" class="btn btn-option btn-disagree" value="Disagree">
                 </div>
                     
                 <div class = "btn-container">
-                    <input type="button" class="btn btn-option btn-strongly-disagree" value="Strongly Disagree">
+                    <input type="button" id="option-<%= result.id %>" class="btn btn-option btn-strongly-disagree" value="Strongly Disagree">
                 </div>
             </div>
 
         </div>
 
-        
+        <%- include partials/scripts.ejs %>	
     </body>
 </html>

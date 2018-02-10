@@ -27,5 +27,8 @@ fs.readdirSync(__dirname).filter(function(file){
 db.sequelizeCredentials = sequelizeCredentials;
 db.Sequelize = Sequelize;
 db.StellarisQuestions = require("./stellaris_question")(sequelizeCredentials, Sequelize);
+db.StellarisAnswers = require("./stellaris_answer")(sequelizeCredentials, Sequelize);
+
+db.StellarisAnswers.belongsTo(db.StellarisQuestions, {foreignKey: 'question_id'});
 
 module.exports = db;
